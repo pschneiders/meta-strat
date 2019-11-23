@@ -1,6 +1,6 @@
 SUMMARY = "SDR"
 
-LICENSE = "BOOSTv1"
+LICENSE = "BSL-1.0 & MIT & Python-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE_1_0.txt;md5=e4224ccaecb14d942c71d31bef20d78c"
 
 SRCREV = "6d9bd820da470cfe7b27b2e6946af93cfece448f"
