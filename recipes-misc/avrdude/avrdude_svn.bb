@@ -10,7 +10,7 @@ inherit autotools
 PV = "6.3+svn${SRCPV}"
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-SRC_URI = "svn://svn.savannah.nongnu.org/avrdude/;protocol=svn;module=trunk;rev=1429 \
+SRC_URI = "svn://svn.savannah.nongnu.org/svn/avrdude/;protocol=http;module=trunk;rev=1429 \
     file://enable-atmega324a.patch \
 "
 
