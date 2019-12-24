@@ -11,7 +11,7 @@ SRCREV = "a1e2d1c3a88723e41efaf44a10f6374e6dfdd8df"
 
 S = "${WORKDIR}/git"
 
-DEPENDS = "alsa-lib"
+DEPENDS = "alsa-lib udev"
 RDEPENDS_${PN} = "bash perl python"
 
 do_install() {
