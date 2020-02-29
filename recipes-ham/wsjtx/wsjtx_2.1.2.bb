@@ -5,6 +5,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=6ee272f0a941cfe6ea96c7a0a7990260"
 
 SRC_URI = "git://git.code.sf.net/p/wsjt/wsjtx;protocol=git;branch=master \
            file://0001-Disable-openmp-code.patch \
+           file://0001-Update-wsjtx-interface-to-keep-it-synced-with-hamlib.patch \
           "
 
 SRCREV = "0068f9bcb807049d2beca59399f1d60fb88edc2a"

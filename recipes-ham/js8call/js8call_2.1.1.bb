@@ -7,7 +7,7 @@ SRC_URI = "git://bitbucket.org/widefido/js8call.git;protocol=https;branch=js8cal
            file://0001-Disable-openmp-code.patch \
           "
 
-SRCREV = "bc3e507af1375e11ac3ff52bfad79eadf02cc4da"
+SRCREV = "b60dfb0ec0d9294fba0e62d699a575368b864919"
 
 S = "${WORKDIR}/git"
 
