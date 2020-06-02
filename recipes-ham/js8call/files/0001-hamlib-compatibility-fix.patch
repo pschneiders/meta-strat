@@ -1,0 +1,25 @@
+From adc23e21f62c9de2dde72f3e7d6179bbdc3054fb Mon Sep 17 00:00:00 2001
+From: Adrian Stratulat <adrian.stratulat91@gmail.com>
+Date: Wed, 3 Jun 2020 00:21:41 +0300
+Subject: [PATCH] hamlib compatibility fix
+
+---
+ HamlibTransceiver.hpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/HamlibTransceiver.hpp b/HamlibTransceiver.hpp
+index 0f3fbfe..2a3d8f6 100644
+--- a/HamlibTransceiver.hpp
++++ b/HamlibTransceiver.hpp
+@@ -12,7 +12,7 @@
+ 
+ extern "C"
+ {
+-  typedef struct rig RIG;
++  typedef struct s_rig RIG;
+   struct rig_caps;
+ #ifdef JS8_USE_LEGACY_HAMLIB
+   typedef int vfo_t;
+-- 
+2.17.1
+

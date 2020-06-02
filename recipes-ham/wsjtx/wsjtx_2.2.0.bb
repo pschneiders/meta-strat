@@ -4,12 +4,11 @@ LICENSE = "GPLv3"
 LIC_FILES_CHKSUM = "file://COPYING;md5=6ee272f0a941cfe6ea96c7a0a7990260"
 
 SRC_URI = "git://git.code.sf.net/p/wsjt/wsjtx;protocol=git;branch=master \
-           file://0001-Disable-openmp-code.patch \
-           file://0001-Update-wsjtx-interface-to-keep-it-synced-with-hamlib.patch \
-           file://0001-solve-redeclaration-issue-in-yocto-dunfell.patch \
+           file://0001-Add-shmem-dependency-to-jt9.patch \
+           file://0002-Disable-openmp-code.patch \
           "
 
-SRCREV = "0068f9bcb807049d2beca59399f1d60fb88edc2a"
+SRCREV = "6a6ce480d9771128ef016a854aa8962d42ffafb6"
 
 S = "${WORKDIR}/git"
 
