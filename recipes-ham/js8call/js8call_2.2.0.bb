@@ -5,10 +5,9 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=95b4671532b5d104b42841286d58c520"
 
 SRC_URI = "git://bitbucket.org/widefido/js8call.git;protocol=https;branch=js8call \
            file://0001-Disable-openmp-code.patch \
-           file://0001-hamlib-compatibility-fix.patch \
           "
 
-SRCREV = "b60dfb0ec0d9294fba0e62d699a575368b864919"
+SRCREV = "99018054a3b273f7086f4e086f5b848c645c23c8"
 
 S = "${WORKDIR}/git"
 
