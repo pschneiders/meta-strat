@@ -12,9 +12,10 @@ SRCREV = "a1e2d1c3a88723e41efaf44a10f6374e6dfdd8df"
 S = "${WORKDIR}/git"
 
 DEPENDS = "alsa-lib udev"
-RDEPENDS_${PN} = "bash perl python"
+RDEPENDS_${PN} = "bash perl"
 
 do_install() {
 	DESTDIR=${D}/usr make install
 	rm -rf ${D}/usr/etc
+	rm -f ${D}/usr/bin/telem-volts.py
 }
