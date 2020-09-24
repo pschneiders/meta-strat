@@ -1,3 +1,5 @@
+# Package required only by gpredict.
+
 SUMMARY = "goocanvas"
 
 LICENSE = "GPLv2"
